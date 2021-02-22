@@ -1,0 +1,14 @@
+name: TEST GPG
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  test-gpg:
+    runs-on: windows-latest
+    steps:
+      - id: test
+      - run: choco install gnupg
