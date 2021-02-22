@@ -11,4 +11,4 @@ jobs:
     runs-on: windows-latest
     steps:
       - id: test
-      - run: choco install gnupg
+        run: choco install gnupg
